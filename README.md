@@ -1,2 +1,5 @@
-# react-muni
-A MUNI React course walkthrough
+# MUNI React
+
+## Overview 
+This is a walkthrough of a MUNI React course with all the iterations. 
+
