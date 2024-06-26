@@ -1,1 +1,52 @@
-/* TODO: Implement */
+.contact-form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  background-color: #dabfff;
+  border-radius: 1rem;
+  border: 2px solid #907ad6;
+  padding: 2rem;
+  /* margin: auto; */
+}
+
+.contact-form__header {
+  /* justify-self: center; */
+  text-align: center;
+  width: 100%;
+}
+
+.contact-form__text-input {
+  display: flex;
+  flex-flow: column wrap;
+  /* margin: 2rem; */
+  /* padding: 2rem;  */
+  width: 45%;
+}
+
+.contact-form__text-area {
+  display: flex;
+  flex-flow: column wrap;
+  width: 95%;
+  margin: 2rem;
+  min-height: 20rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-form__text-input {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 100%;
+    margin: 0.5rem 0rem;
+    /* padding: 0.5rem; */
+  }
+  .contact-form__text-area {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 100%;
+    min-height: 20rem;
+    margin: 0.5rem 0rem;
+  }
+}

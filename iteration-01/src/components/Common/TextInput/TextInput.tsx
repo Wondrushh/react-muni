@@ -1,6 +1,6 @@
 import "./text-input.css";
 
-interface TextInputProps {
+export interface TextInputProps {
     label?: string;
     placeholder?: string;
     initialText?: string;
