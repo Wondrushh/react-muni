@@ -3,18 +3,18 @@ import { TextInput, TextInputProps } from "../Common/TextInput/TextInput";
 import { TextArea, TextAreaProps } from "../Common/TextArea/TextArea";
 import { Button } from "../Common/Button/Button";
 
+const textInputs: Array<TextInputProps> = [
+  { label: "Your Name", placeholder: "Mike" },
+  { label: "Your Surname", placeholder: "Litoris" },
+  { label: "Email", placeholder: "mike@litoris.com" },
+  { label: "Phone Number", placeholder: "+420 123 456 789" },
+];
+
+const testAreas: Array<TextAreaProps> = [
+  { label: "What bothers you?", placeholder: "I am having troubles with..." },
+];
+
 export const ContactForm = () => {
-  const textInputs: Array<TextInputProps> = [
-    { label: "Your Name", placeholder: "Mike" },
-    { label: "Your Surname", placeholder: "Litoris" },
-    { label: "Email", placeholder: "mike@litoris.com" },
-    { label: "Phone Number", placeholder: "+420 123 456 789" },
-  ];
-
-  const testAreas: Array<TextAreaProps> = [
-    { label: "What bothers you?", placeholder: "I am having troubles with..." },
-  ];
-
   return (
     <>
       <div className="contact-form">
@@ -32,7 +32,7 @@ export const ContactForm = () => {
             ></TextArea>
           </div>
         ))}
-       <Button type="primary" label="Send message"></Button> 
+        <Button type="primary" label="Send message"></Button>
       </div>
     </>
   );

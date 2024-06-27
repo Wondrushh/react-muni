@@ -5,7 +5,7 @@
 
   background-color: #dabfff;
   border-radius: 1rem;
-  border: 2px solid #907ad6;
+  border: 2px solid var(--border-color);
   padding: 2rem;
   /* margin: auto; */
 }
@@ -19,8 +19,6 @@
 .contact-form__text-input {
   display: flex;
   flex-flow: column wrap;
-  /* margin: 2rem; */
-  /* padding: 2rem;  */
   width: 45%;
 }
 
