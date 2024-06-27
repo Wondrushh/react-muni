@@ -24,7 +24,7 @@ export const PricingSectionDesktop: Story = {
                 style={{
                     width: "1440px",
                     height: "1024px",
-                    backgroundColor: "white",
+                    // backgroundColor: "white",
                 }}
             >
                 <Story />
@@ -48,7 +48,7 @@ export const PricingSectionMobile: Story = {
                 style={{
                     width: "100vw",
                     height: "100vh",
-                    backgroundColor: "white",
+                    // backgroundColor: "white",
                 }}
             >
                 <Story />
