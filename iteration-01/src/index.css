@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 :root {
   font-family: "Open sans", sans-serif;
@@ -16,4 +16,7 @@
   -moz-osx-font-smoothing: grayscale;
 
   /* TODO: Implement own variables if necessary */
+  --primary-color: #6a994b;
+  --border-color: #907ad6;
+  --border-radius: 1rem;
 }

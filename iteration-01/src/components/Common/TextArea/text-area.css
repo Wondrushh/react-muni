@@ -1,4 +1,5 @@
 .text-area{
+    flex-grow: 1;
     padding: 1em 1em;
     border-radius: 0.5rem;
     border-color: #907AD6;

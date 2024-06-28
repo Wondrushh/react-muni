@@ -1,0 +1,63 @@
+.pricing-card {
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--border-color); 
+    border-radius: var(--border-radius);
+    padding: 2rem;
+}
+
+.pricing-card--highlighted {
+    border-color: var(--primary-color);
+}
+
+.pricing-card__price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.pricing-card__price {
+    font-size: 2em;
+}
+
+.pricing-card__pros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.tick-icon {
+    height: 1.5em;
+    margin-right: 0.5em;
+}
+
+.pricing-card__button {
+    align-self: flex-end;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-card__header {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing-card__most-popular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--border-color);
+    border-radius: 10000px;
+    padding: 0px 8px;
+
+}
+
+.pricing-card__spacer {
+    flex-grow: 1;
+}

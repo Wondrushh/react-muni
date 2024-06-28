@@ -1,7 +1,7 @@
 import "./button.css";
 import { HeroIcon } from "../../../types/icons.ts";
 
-interface ButtonProps {
+export interface ButtonProps {
     type: "primary" | "secondary";
     label: string;
     icon?: HeroIcon;

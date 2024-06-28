@@ -1,6 +1,6 @@
 import "./text-area.css";
 
-interface TextAreaProps {
+export interface TextAreaProps {
     label?: string;
     placeholder?: string;
 }
