@@ -16,7 +16,10 @@
   -moz-osx-font-smoothing: grayscale;
 
   /* TODO: Implement own variables if necessary */
+  --nav-bar-btn-color: #6a994b;
+  --nav-bar-bg-color: #a7c957;
   --primary-color: #6a994b;
   --border-color: #907ad6;
   --border-radius: 1rem;
+  --border-radius-small: 0.5rem;
 }
