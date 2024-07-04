@@ -1,16 +1,21 @@
 import "./text-input.css";
 
-interface TextInputProps {
-    label?: string;
-    placeholder?: string;
-    initialText?: string;
+export interface TextInputProps {
+  label?: string;
+  placeholder?: string;
+  initialText?: string;
 }
 
 export const TextInput = ({ ...props }: TextInputProps) => {
-    return (
-        <>
-            <p>{props.label}</p> 
-            <input className="input" type="text" placeholder={props.placeholder} value={props.initialText} />
-        </>
-    )
+  return (
+    <>
+      {props.label ? <p>{props.label}</p> : null}
+      <input
+        className="input"
+        type="text"
+        placeholder={props.placeholder}
+        value={props.initialText}
+      />
+    </>
+  );
 };

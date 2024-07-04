@@ -1,1 +1,73 @@
-/* TODO: Implement */
+.nav-bar {
+  display: flex;
+  flex-flow: column;
+}
+
+.nav-bar__wrapper {
+  background-color: var(--nav-bar-bg-color);
+}
+
+.nav-bar__breadcrumbs {
+  display: none;
+  padding: 0em 0em 1em 0em;
+}
+
+.nav-bar__item {
+  margin: 0.5em 0em;
+}
+
+.nav-bar__search {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 2em;
+}
+
+.nav-bar__search-btn {
+  margin: 0 auto 2em auto;
+  font-size: 1.3em;
+}
+
+.nav-bar__spacer {
+  flex-grow: 1;
+}
+
+.nav-bar__logo {
+  margin: 1em auto 1em auto;
+  height: 3em;
+}
+
+@media screen and (min-width: 600px) {
+  .nav-bar {
+    flex-flow: row;
+    align-items: center;
+  }
+
+  .nav-bar__wrapper {
+    padding: 0 2em;
+  }
+
+  .nav-bar__breadcrumbs {
+    display: block;
+  }
+  .nav-bar__search {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 2em;
+    width: 25%;
+  }
+
+  .nav-bar__item {
+    margin: 0.5em 0.5em;
+  }
+
+  .nav-bar__search-btn {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .nav-bar__logo {
+    margin: 1em 2em 1em 1em;
+    height: 3em;
+  }
+}

@@ -1,0 +1,22 @@
+.nav-bar-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--nav-bar-btn-color);
+    border-width: 0px;
+    padding: 1em 2em;
+
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.nav-bar-item__icon {
+    height: 1.5em;
+}
+
+@media screen and (min-width:600px) {
+    .nav-bar-item {
+        border-radius: var(--border-radius-small) 0 var(--border-radius-small) 0;
+    }
+}
