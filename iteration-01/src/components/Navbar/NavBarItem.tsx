@@ -1,6 +1,5 @@
 import { ChevronRightIcon } from "@heroicons/react/16/solid";
-import "./nav-bar-item.css";
-
+import "./navbar-item.css"
 export interface NavBarItemProps {
   label: string;
 }
